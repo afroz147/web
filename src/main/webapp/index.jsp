@@ -6,7 +6,7 @@
 <body>
 <h1>Register Form</h1>
 <form action="register" method="post">
-			<table style="with: 50%">
+			<table>
 				<tr>
 					<td>First Name</td>
 					<td><input type="text" name="first_name" /></td>
@@ -26,7 +26,11 @@
 				<tr>
 					<td>Mobile No</td>
 					<td><input type="text" name="contact" /></td>
-				</tr></table>
-			<input type="sign Up" value="Submit" /></form>
+                </tr>
+                <tr>
+					<td colspan="2" style="text-align:center"><input type="sign Up" value="Submit" /></td>
+                </tr>          
+            </table>
+			</form>
 </body>
 </html>
